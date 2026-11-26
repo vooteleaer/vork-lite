@@ -37,7 +37,7 @@ A Lite node is a small vØrk node that relays nothing:
 - An ESP32, ESP32-S2, -S3, -C3 or -C6 with ESP-IDF 5.1 or newer.
 - 16 kB of stack for the task that runs it (signing and key agreement need it).
 - vØrk 0.5.0 or newer on at least one of your own devices (a PC, a phone, a
-  server; until 0.5.0 is released, a build of vØrk's `main`): that's where
+  server; [releases](https://github.com/vooteleaer/vork/releases)): that's where
   you link the device. See
   [vØrk's README](https://github.com/vooteleaer/vork#install).
 
