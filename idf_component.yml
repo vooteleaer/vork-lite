@@ -1,0 +1,16 @@
+version: "0.1.0"
+description: "vØrk Lite: an ESP32 as a Lite node of vØrk, the serverless identity-addressed network on WireGuard"
+url: "https://github.com/vooteleaer/vork-lite"
+repository: "https://github.com/vooteleaer/vork-lite.git"
+license: "MIT"
+targets:
+  - esp32
+  - esp32s2
+  - esp32s3
+  - esp32c3
+  - esp32c6
+dependencies:
+  idf: ">=5.1"
+  # Full nodes on the local network are found by mDNS. Any version: a
+  # firmware that has mDNS already (ESPHome) keeps its own.
+  espressif/mdns: "*"

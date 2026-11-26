@@ -1,0 +1,15 @@
+[package]
+name = "vork-lite-interop"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+# The Lite node's inner layer against what full nodes use: boringtun opens a
+# session to it, and ed25519-dalek checks its signatures.
+[dependencies]
+boringtun = "0.7.1"
+ed25519-dalek = "2"
+x25519-dalek = { version = "2", features = ["static_secrets"] }
+
+[build-dependencies]
+cc = "1"

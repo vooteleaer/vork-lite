@@ -1,0 +1,4 @@
+dependencies:
+  # In your own project: vooteleaer/vork-lite: { git: "https://github.com/vooteleaer/vork-lite.git", version: "v0.1.0" }
+  vooteleaer/vork-lite:
+    path: ../../..

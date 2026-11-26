@@ -1,0 +1,4 @@
+# The node signs and agrees keys on its own task (16 kB); lwIP's core lock
+# is used when there is one.
+CONFIG_LWIP_TCPIP_CORE_LOCKING=y
+CONFIG_ESP_MAIN_TASK_STACK_SIZE=8192

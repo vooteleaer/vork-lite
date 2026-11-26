@@ -1,0 +1,14 @@
+secrets.yaml
+keys/
+backup/
+.esphome/
+*.bin
+__pycache__/
+test/interop/target/
+test/interop/Cargo.lock
+*.log
+examples/*/build/
+examples/*/sdkconfig
+examples/*/managed_components/
+examples/*/dependencies.lock
+*.err

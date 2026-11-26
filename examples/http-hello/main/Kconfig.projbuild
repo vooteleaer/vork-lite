@@ -1,0 +1,9 @@
+menu "vØrk Lite example"
+    config EXAMPLE_WIFI_SSID
+        string "Wi-Fi network"
+    config EXAMPLE_WIFI_PASSWORD
+        string "Wi-Fi password"
+    config EXAMPLE_NAME
+        string "Name on vØrk"
+        default "hello"
+endmenu
