@@ -11,7 +11,7 @@ This repository is the library: an ESP-IDF component for your own firmware.
 For ESPHome, use [esphome-vork-lite](https://github.com/vooteleaer/esphome-vork-lite),
 which is built on it.
 
-**Status:** pre-release (v0.1.0). Tested on an ESP32-S3 with ESP-IDF 5.5.
+**Status:** pre-release (v0.6.0). Tested on an ESP32-S3 with ESP-IDF 5.5. Its version follows vØrk's: Lite 0.6 is released with vØrk 0.6 and works with it.
 
 ## How it works
 
@@ -49,7 +49,7 @@ A Lite node is a small vØrk node that relays nothing:
    dependencies:
      vooteleaer/vork-lite:
        git: https://github.com/vooteleaer/vork-lite.git
-       version: v0.1.0
+       version: v0.6.0
    ```
 
 2. Start a node once Wi-Fi is up:

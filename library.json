@@ -1,6 +1,6 @@
 {
   "name": "vork-lite",
-  "version": "0.1.0",
+  "version": "0.6.0",
   "description": "vØrk Lite: an ESP32 as a Lite node of vØrk, the serverless identity-addressed network on WireGuard",
   "keywords": ["vork", "wireguard", "vpn", "mesh", "esp32", "esp-idf"],
   "repository": { "type": "git", "url": "https://github.com/vooteleaer/vork-lite.git" },
